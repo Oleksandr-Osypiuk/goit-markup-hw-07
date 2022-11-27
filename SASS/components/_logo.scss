@@ -1,0 +1,37 @@
+.header__logo-link {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+}
+.logo-link {
+  color: var(--main-text-color);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-link__colored,
+.footer-web {
+  color: var(--brand-color);
+}
+
+.logo-link:hover,
+.logo-link:focus,
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--brand-color);
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

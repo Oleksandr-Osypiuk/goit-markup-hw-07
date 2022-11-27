@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--secondary-bgr-color);
+
+  padding: 60px 0;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-link.current {
+  color: #ffffff;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts {
+  margin-top: 20px;
+}
+
+.footer-contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  align-content: center;
+  margin-right: 70px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--brand-color);
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

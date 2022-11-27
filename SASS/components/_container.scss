@@ -1,0 +1,22 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-studio__container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
